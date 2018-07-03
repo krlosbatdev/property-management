@@ -49,15 +49,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-03 16:33:55</sys_created_on>
-        <sys_id>c6a7ca463703130035c2435973990e5d</sys_id>
+        <sys_id>6a206a8edb03530032049447db96198a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Cost Center</sys_name>
         <sys_package display_value="Property Management" source="x_222371_property">893502423703130035c2435973990e19</sys_package>
         <sys_policy/>
         <sys_scope display_value="Property Management">893502423703130035c2435973990e19</sys_scope>
         <sys_update_name>sys_dictionary_x_222371_property_management_tasks_cost_center</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-03 16:33:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-03 18:21:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

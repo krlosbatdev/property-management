@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Property Management Tasks" max_length="40" name="x_222371_property_management_tasks" sizeclass="1" type="collection">
+    <element extends="task" label="Property Management Tasks" max_length="40" name="x_222371_property_management_tasks" type="collection">
         <element label="Cost Center" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
         <element label="Estimated Completion" max_length="40" name="estimated_completion" type="glide_date_time"/>
         <element label="P.O Number" max_length="10" name="p_o_number" type="string"/>
