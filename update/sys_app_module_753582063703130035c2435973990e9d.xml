@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Property Management">993542063703130035c2435973990e9e</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Property Management Tasks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_222371_property_management_tasks</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_222371_property.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:23:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>753582063703130035c2435973990e9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Property Management Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Property Management" source="x_222371_property">893502423703130035c2435973990e19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management">893502423703130035c2435973990e19</sys_scope>
+        <sys_update_name>sys_app_module_753582063703130035c2435973990e9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:23:14</sys_updated_on>
+        <timeline_page/>
+        <title>Property Management Tasks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <comment>To creator and cost center manager</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Initial submission">e3b90e0a3703130035c2435973990e75</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:55</sys_created_on>
+        <sys_id>bd2d8e0a3703130035c2435973990e27</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Property Management" source="x_222371_property">893502423703130035c2435973990e19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Property Management">893502423703130035c2435973990e19</sys_scope>
+        <sys_update_name>sys_hub_action_instance_bd2d8e0a3703130035c2435973990e27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:56</sys_updated_on>
+        <ui_id>f0a42df4-5552-49dc-aa1b-cd4d9f6e2d36</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bd2d8e0a3703130035c2435973990e27"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bd2d8e0a3703130035c2435973990e27</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:55</sys_created_on>
+        <sys_id>352d4a8a3703130035c2435973990e61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:55</sys_updated_on>
+        <value>&lt;p&gt;Thank you for submmiting the request.&lt;/p&gt;</value>
+        <variable display_value="">c71241160b100300d97d8bf637673a55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bd2d8e0a3703130035c2435973990e27</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:56</sys_created_on>
+        <sys_id>4a2d4a8a3703130035c2435973990e8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:56</sys_updated_on>
+        <value>&lt;p&gt;Thank you for submmiting the request.&lt;/p&gt;</value>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bd2d8e0a3703130035c2435973990e27"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>bd2d8e0a3703130035c2435973990e27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:56</sys_created_on>
+        <sys_id>062d4a8a3703130035c2435973990e8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>bd2d8e0a3703130035c2435973990e27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:55</sys_created_on>
+        <sys_id>fd2d4a8a3703130035c2435973990e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>bd2d8e0a3703130035c2435973990e27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:55</sys_created_on>
+        <sys_id>b12d4a8a3703130035c2435973990e61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created_1.current.cost_center.manager}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>bd2d8e0a3703130035c2435973990e27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:56</sys_created_on>
+        <sys_id>c62d4a8a3703130035c2435973990e8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Created_1.current.cost_center.manager}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>bd2d8e0a3703130035c2435973990e27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:55</sys_created_on>
+        <sys_id>3d2d4a8a3703130035c2435973990e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created_1.current.number}} Property management request  receipt</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>bd2d8e0a3703130035c2435973990e27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:56</sys_created_on>
+        <sys_id>422d4a8a3703130035c2435973990e8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Created_1.current.number}} Property management request  receipt</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>bd2d8e0a3703130035c2435973990e27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:56</sys_created_on>
+        <sys_id>8e2d4a8a3703130035c2435973990e89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Created_1.current.sys_created_by}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>bd2d8e0a3703130035c2435973990e27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-03 16:57:55</sys_created_on>
+        <sys_id>f12d4a8a3703130035c2435973990e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-03 16:57:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created_1.current.sys_created_by}}</value>
+    </sys_element_mapping>
+</record_update>
